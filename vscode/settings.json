@@ -1,0 +1,48 @@
+{
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.fontWeight": "normal",
+    "window.zoomLevel": -1.04,
+    "workbench.activityBar.location": "top",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline",
+    "vim.cursorStylePerMode.visual": "block-outline",
+    "vim.cursorStylePerMode.visualblock": "block-outline",
+    "vim.cursorStylePerMode.visualline": "block-outline",
+    "vim.highlightedyank.enable": true,
+    "vim.hlsearch": true,
+    "vim.visualstar": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "ESC"
+            ]
+        },
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "vim.useSystemClipboard": true,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font',Consolas, 'Courier New', monospace",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.profiles.windows": {
+        "Pwsh-Scoop": {
+            "path": "pwsh.exe", 
+            "args": ["-noexit"],
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Pwsh-Scoop"
+}
